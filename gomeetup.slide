@@ -315,44 +315,6 @@ No assertions.  Full manual control. Test functions have the form
 
 
 
-## Building a REST API
-
-
-
-
-
-## REST API Routes
-
-Using a 3rd party HTTP router and dispatcher <https://github.com/gorilla/mux>
-
-#.play -edit code/restapi/restapi.go
-
-.play -edit code/restapi/restapi.go /ROUTE OMIT/,/END OMIT/
-.link http://localhost:8080/api/products
-.link http://localhost:8080/api/product/cof
-
-
-
-
-
-## REST API - JSON Encoding
-
-.code -edit code/restapi/restapi.go /PROD OMIT/,/END OMIT/
-
-
-
-
-
-## REST API - Getting a product
-
-.code -edit code/restapi/restapi.go /GET OMIT/,/END OMIT/
-.code -edit code/restapi/restapi.go /RESPOND OMIT/,/END OMIT/
-
-
-
-
-
-
 ## Concurrency
 
 
