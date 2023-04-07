@@ -16,27 +16,12 @@ dranidis@york.citycollege.eu
 
 ## Slides and code at
 
-.link https://github.com/dranidis/time-to-go
-
-
-
+.link https://github.com/dranidis/intro-to-go
 
 
 ## Hello world
 
 .play -edit code/hello/hello.go
-
-
-
-
-
-## Hello Web
-
-Starts a web server at <http://localhost:8080> using the default HTTP router.
-
-.play code/helloweb/helloweb.go
-
-
 
 
 
@@ -46,7 +31,7 @@ Starts a web server at <http://localhost:8080> using the default HTTP router.
 - by Robert Griesemer, Rob Pike, and Ken Thompson
 - open source
 - First release in 2012, Go 1
-- May 2021, Go 1.16
+- April 2023, Go 1.20
 
 
 
@@ -63,14 +48,7 @@ Starts a web server at <http://localhost:8080> using the default HTTP router.
 
 
 
-
-
 ## Code organization and tools
-
-
-
-
-
 
 ## Tools
 
@@ -83,12 +61,11 @@ Starts a web server at <http://localhost:8080> using the default HTTP router.
 - `go ...`
 
 
-
-
-
 ## Some language features
 
+## Packages and Imports
 
+.play -edit code/packages/main.go
 
 
 
